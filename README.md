@@ -18,7 +18,9 @@
 3. Launch png graphics device
 4. Create plot
 5. Close graphics device
-			
+
+
+
 ## Introduction
 
 This assignment uses data from
