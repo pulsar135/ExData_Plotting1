@@ -2,7 +2,7 @@
 	### Files added to the forked repository
 		* plot1-4.R - a separate R script (plot1.R, plot2.R, etc.) that reconstructs each of the 4 plots displayed below and returns them to a png file
 		* plot1-4.png - A png file of each of the reconstructed plots (plot1.png, plot2.png, etc.) that measures 480p x 480p
-		* household_power_consumption.txt - original dataset source file
+		* household_power_consumption.zip - original dataset source file
 		
 	### Overview of R script files
 		* Each of the 4 script files shares this same basic structure.  The only variations are the code chunks which create the individual plots.
