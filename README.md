@@ -1,17 +1,17 @@
-## Update to original README.md
-### Files added to the forked repository
+# Update to original README.md
+## Files added to the forked repository
 * plot1-4.R - A separate R script (plot1.R, plot2.R, etc.) that reconstructs each of the 4 plots displayed below and returns them to a png file
 * plot1-4.png - A png file of each of the reconstructed plots (plot1.png, plot2.png, etc.) that measures 480p x 480p
 * household_power_consumption.zip - Original source dataset used by R scripts
 		
-### Overview of R script files
+## Overview of R script files
 * Each of the 4 script files shares this same basic structure.  The only variations are the code chunks which create the individual plots.
 * These scripts require the data.table and dplyr packages
-#### Assumptions
+### Assumptions
 * The source dataset has been downloaded from the link below, unzipped and the .txt file itself has been placed in the same directory as the script files
-#### Inputs
+### Inputs
 * homedir - directory where the original dataset file, and the script files are located.  Default is the current working directory
-#### Summary of script actions
+### Summary of script actions
 1. Read in original source dataset
 2. Perform transformation on original dataset
 	- The original date and time columns are combined to create a new datetime column that is bound to the beginning of the dataset
@@ -19,8 +19,7 @@
 4. Create plot
 5. Close graphics device
 
-
-
+# Original README.md
 ## Introduction
 
 This assignment uses data from
